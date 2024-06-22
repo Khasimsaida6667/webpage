@@ -1,0 +1,48 @@
+
+.productList {
+    background-color: white;
+    padding: 40px 0;
+  }
+  
+  .title1 {
+    color: #f6a441;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .bou{
+    display: flex;
+    justify-content: space-around;
+  }
+  .l{
+    height: 10px;
+    margin-left: 90px;
+    margin-right: 90px;
+  }
+  .bor1{
+    display: flex;
+    height: 10px;
+     width: 400px;
+    margin-top: 25px;
+    margin-left: 0px;
+  }
+  .bor2{
+    display: flex;
+    height: 10px;
+     width: 400px;
+    margin-top: 25px;
+    margin-left:0px;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  @media (min-width: 768px) {
+    .title {
+      font-size: 2.5rem;
+    }
+  }
