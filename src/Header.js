@@ -4,13 +4,16 @@ import './Header.css';
 
 function Header() {
   return (
+    
     <header className="header"
     >
       <div className="container1">
-        <div className='to'><img src="./Group.png" alt="hee" className='hee'/></div>
+        <div className='to'><img src="./Frame (3).png" alt="to" className='hee'/></div>
+        
         <div className='he'>
-        <p className="subtitle">The choice is yours.<br/> Because they don't have one.</p>
-        <div><button className="button1">QUICK VIEW</button></div>
+        <p className="subtitle3">The choice is yours.<br/> Because they don't have one.</p>
+        <div><button className="button1">QUICK VIEW</button>
+        </div>
         </div>
       </div>
     </header>

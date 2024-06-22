@@ -58,7 +58,7 @@ const products = [
             <ProductItem key={product.id} product={product} openPopup={openPopup} />
           ))}
         </div>
-        <img src="./Frame.png" alt="some" className='l'/>
+        <img src="./Frame.png" alt="some" className='aa'/>
       </div>
     </section>
   );

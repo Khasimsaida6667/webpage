@@ -8,7 +8,7 @@ function ProductItem({ product, openPopup }) {
       <img src={product.image} alt={product.name} className="image" />
       <div className='s'>
       <h3 className="name">{product.name}</h3>
-      <button onClick={() => openPopup(product)} className="button">
+      <button onClick={() => openPopup(product)} className="button4">
         QUICK VIEW
       </button></div>
     </div>

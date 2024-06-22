@@ -1,14 +1,12 @@
 
 .header {
-  background-image: url("https://i.ibb.co/BN2PBcY/Frame-6.png");
+  background-image: url("Frame 6.png");
   background-size: cover;
   background-repeat: no-repeat;
   width: auto;
-  height: 40vh;
+  height: 65vh;
 
-
-
-}
+} 
 
 .title2 {
   font-size: 2.5rem;
@@ -20,11 +18,12 @@
   padding-top: 0px;
   background-color: rgb(243, 248, 248);
   opacity: 0.4;
+  height: auto;
 
 }
 
-.subtitle {
-  font-size: 1.2rem;
+.subtitle3 {
+   font-size: 2.5rem; 
   margin-bottom: 20px;
 }
 
@@ -33,11 +32,15 @@
   width: 10%;
   padding-top: 0px;
   margin-left: 100px;
+  mix-blend-mode: multiply;
+  background-color: white;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 1px black
 
 }
 
 .he {
-  padding-top: 40px;
+  padding-top: 150px;
   color: white;
   display: flex;
   flex-direction: column;

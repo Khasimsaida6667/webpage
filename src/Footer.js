@@ -17,7 +17,7 @@ function Footer() {
       <img src="./Frame 62.png" alt="s" className='la'/>
       <div className="container">
       
-        <p className="text">Follow us on</p>
+        <p className="text4">Follow us on</p>
         <div className="socialIcons">
           {socialIcons.map((social, index) => {
             const Icon = social.icon;
